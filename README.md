@@ -9,3 +9,6 @@ git push -u origin master
 
 Note that this differs from what GitHub recommends when creating the repo from the command line. No 'main' branch is created and the push is made from the initial 'master' branch in the local repo.
 This is done to see what consequences it has.
+
+When this file is created like this, locally, its presentation in GitHub is not what one would expect. The newlines in the commands part are not really there.
+Another thing to notice is that, pushing this way, creates a 'master' branch in the remote repo with the 'first commit' (the one created locally) and there seems to be no problem.
